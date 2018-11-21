@@ -1,13 +1,14 @@
 import time
 
+
 morning = {hour: 10, minutes: 10, day: 6}
 evening = {hour: 17, minutes: 10, day: 6}
-recLength = 70
+recLength = 70 # in minutes
 
 while(True):
 	if (itIsTime(morning) || itiIsTime(evening):
-		record(recLength)
-	time.sleep(600)
+		#record(recLength)
+	sleep(600) #sleep until morning/evening service
 
 def itIsTime(serviceTime):
 	currTime = time.gmtime()
@@ -18,5 +19,6 @@ def itIsTime(serviceTime):
 	else:
 		return False
 
-def record(length):
+#def record(length):
+## use arecord
 	
